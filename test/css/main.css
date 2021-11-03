@@ -1,0 +1,82 @@
+/* Super, il s'agit de votre feuille CSS qui n'est pas liée à votre Bootstrap. Elle agit de manière indépendante et vous permettra d'effectuer des modifications de design sans interagir directement avec le Framework. */
+
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'Poppins', sans-serif;
+}
+
+p, a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.titre {
+    margin-bottom: 10px;
+}
+
+.titre .col p {
+    margin: 5px 0;
+}
+
+.espacement-10 {
+    padding: 10px;
+}
+
+.affiche {
+    border-radius: 12px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.category p{
+    margin-bottom: 0;
+}
+
+.category h5 {
+    margin-bottom: 0;
+    color: #303030
+}
+
+.category, .description {
+    font-size: 0.75em;
+}
+
+hr {
+    opacity: 0.1;
+}
+
+.btn-gradient {
+    background: linear-gradient(25deg, rgba(2,0,36,1) 20%, rgba(0,212,255,1) 100%);
+    color: #ffffff;
+    border-radius: 10px;
+    border: 0px;
+    padding: 7px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+    h3 {
+        font-size: 1.2em;
+    }
+    .entete-titre {
+        width: 60%;
+    }
+    .entete-lien {
+        width: 40%;
+    }
+    .description {
+        font-size: 1em;
+    }
+    .description-card {
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 575px) {
+
+
+
+}
